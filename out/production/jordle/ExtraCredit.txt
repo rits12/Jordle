@@ -1,0 +1,12 @@
+I implemented 3 things that I believe deserve extra credit:
+	1. The ability to account for duplicate characters. 
+	2. 3 different graphic animations at the top of the window. One says Jordle as default, the other two are victory and defeat depending on the outcome of the game.
+	3. Controls: The rows that have not been reached are disabled. Once a row has been entered, it is disabled. Even though the opacity of disabled rows changes, boxes
+		that are green or yellow keep their color opacity for clarity. The focus automatically shifts to the next row.
+		Entering non-letters does nothing. If a letter is pressed, it puts it in the box and the focus automatically shifts to the next box. If delete/backspace is
+		pressed, the box is cleared and the focus automatically shifts to the previous box.
+		Users can also click with the mouse on any box in the active row to shift focus instead of going in order.
+	+. Overall clean UI. The elements are spaced and positioned in an elegant manner. All components fit in the window.
+
+The code compiles and runs with only the javafx.controls module. 
+	So the provided "javac --module-path javafx-sdk-11.0.2/lib/ --addmodules=javafx.controls FileName.java" should work hopefully. 
